@@ -1,7 +1,4 @@
 #include <iostream>
-//#include <bits/stdc++.h>
-//#include <array>
-//#include <string>
 using namespace std;
 
 class stack{

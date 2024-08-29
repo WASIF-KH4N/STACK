@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 class stack{
     private:
        int top;
@@ -36,12 +35,12 @@ class stack{
             cout<<arr[i]<<endl;
         }
       }
-};
+    };
 int main(){
-    stack s1;
-    s1.display();
-    s1.push(88);
-    s1.push(98);
-    s1.pop();
-    s1.display();
+     stack s1;
+      s1.display();
+        s1.push(88);
+         s1.push(98);
+        s1.pop();
+     s1.display();
 }

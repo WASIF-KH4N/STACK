@@ -1,2 +1,2 @@
 # STACK
-Implementation of array using stack in c++.
+The provided C++ code implements a basic stack data structure using a class. The stack class has a private member variable top to keep track of the current top element and an array arr of size 5 to store the stack elements. The constructor initializes the top to -1 and sets all elements of the array to 0. The push method adds an element to the stack if it's not full, and the pop method removes the top element if the stack is not empty. The display method prints all elements of the stack. In the main function, an instance of the stack class is created, and the display, push, and pop methods are demonstrated. The code showcases a simple stack implementation with basic operations.

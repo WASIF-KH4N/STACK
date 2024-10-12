@@ -3,11 +3,11 @@ using namespace std;
 class stack{
     private:
        int top;
-       int arr[5];
+       int arr[6];
     public:
           stack(){
             top=-1;
-            for(int i=0;i<5;i++){
+            for(int i=0;i<6;i++){
                 arr[i]=0;
             }
           }
